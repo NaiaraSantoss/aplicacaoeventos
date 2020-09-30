@@ -1,0 +1,92 @@
+div#container {
+  width: 100vw;
+  height: 100vh;
+  align-items: stretch;
+  display: flex;
+}
+
+.content {
+  width: 100%;
+  max-width: 550px;
+  background-color: #E6E6F0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContent {
+  margin-bottom: 5rem;
+}
+
+#Criar {
+  width: 30rem;
+  height: 6rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #2b0548;
+  color: white;
+  font-size: 2rem;
+}
+
+#Criar:hover {
+  background-color: #531781;
+  transition: 0.5s;
+}
+
+#Participar {
+  width: 30rem;
+  height: 6rem;
+  margin: 2.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #2b0548;
+  color: white;
+  font-size: 2rem;
+}
+
+#Participar:hover {
+  background-color: #531781;
+  transition: 0.5s;
+}
+
+#Background {
+  flex: 1;
+  background-image: url("/Assets/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: aqua;
+}
+
+/*
+
+willian/Naira
+
+*/
+
+.botoon {
+  width: 20rem;
+  height: 6rem;
+  margin: 2.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #2b0548;
+  color: white;
+  font-size: 2rem;
+}
+
+.botoon:hover {
+  background-color: #531781;
+  transition: 0.5s;
+}
+.evento{
+  max-width: 38%;
+ 
+  margin: 2.5rem;
+  border-radius: 8px;
+  border-color: black;
+
+  background-color: green;
+  color: black;
+  font-size: 2rem;
+}
